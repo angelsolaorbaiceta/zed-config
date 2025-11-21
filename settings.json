@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "wrap_guides": [80, 90],
   "relative_line_numbers": "enabled",
   "buffer_line_height": "standard",
   "helix_mode": true,

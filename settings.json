@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ui_font_family": ".ZedSans",
   "wrap_guides": [80, 90],
   "relative_line_numbers": "enabled",
   "buffer_line_height": "standard",
@@ -14,7 +15,7 @@
   "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "UbuntuMono Nerd Font",
   "vim_mode": true,
-  "ui_font_size": 15,
+  "ui_font_size": 16.0,
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",

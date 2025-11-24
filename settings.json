@@ -11,7 +11,7 @@
   "wrap_guides": [80, 90],
   "relative_line_numbers": "enabled",
   "buffer_line_height": "standard",
-  "helix_mode": true,
+  "helix_mode": false,
   "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "UbuntuMono Nerd Font",
   "vim_mode": true,

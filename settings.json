@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": true,
   "ui_font_family": ".ZedSans",
   "wrap_guides": [80, 90],
   "relative_line_numbers": "enabled",
@@ -15,8 +17,8 @@
   "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "UbuntuMono Nerd Font",
   "vim_mode": true,
-  "ui_font_size": 17.0,
-  "buffer_font_size": 16.0,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 15.0,
   "theme": {
     "mode": "system",
     "light": "One Light",

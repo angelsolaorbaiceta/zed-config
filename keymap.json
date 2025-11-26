@@ -17,5 +17,11 @@
     "bindings": {
       // "j k": "vim::NormalBefore"
     }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "g r": "editor::FindAllReferences"
+    }
   }
 ]

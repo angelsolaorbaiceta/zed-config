@@ -28,5 +28,8 @@
     "Python": {
       "language_servers": ["pyright", "ruff"]
     }
+  },
+  "experimental.theme_overrides": {
+    "editor.debugger_active_line.background": "#5a1f38"
   }
 }

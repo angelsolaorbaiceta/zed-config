@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "colorize_brackets": true,
   "show_signature_help_after_edits": true,
   "auto_signature_help": true,
   "ui_font_family": ".ZedSans",
@@ -22,11 +23,28 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Mocha"
+    "dark": "Catppuccin Macchiato"
   },
   "languages": {
     "Python": {
       "language_servers": ["pyright", "ruff"]
+    },
+    "Go": {
+      "language_servers": ["gopls", "golangci-lint"]
+    }
+  },
+  "lsp": {
+    "golangci-lint": {
+      "initialization_options": {
+        "command": [
+          "golangci-lint",
+          "run",
+          "--output.json.path",
+          "stdout",
+          "--show-stats=false",
+          "--output.text.path="
+        ]
+      }
     }
   },
   "experimental.theme_overrides": {

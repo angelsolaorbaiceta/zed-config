@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "dock": "right",
+  },
   "disable_ai": true,
   "colorize_brackets": true,
   "show_signature_help_after_edits": true,
@@ -24,15 +27,21 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha",
+  },
+  "inlay_hints": {
+    "show_value_hints": false,
   },
   "languages": {
     "Python": {
-      "language_servers": ["pyright", "ruff"]
+      "language_servers": ["pyright", "ruff"],
     },
     "Go": {
-      "language_servers": ["gopls", "golangci-lint"]
-    }
+      "language_servers": ["gopls", "golangci-lint"],
+    },
+  },
+  "debugger": {
+    "dock": "left",
   },
   "lsp": {
     "golangci-lint": {
@@ -43,12 +52,12 @@
           "--output.json.path",
           "stdout",
           "--show-stats=false",
-          "--output.text.path="
-        ]
-      }
-    }
+          "--output.text.path=",
+        ],
+      },
+    },
   },
   "experimental.theme_overrides": {
-    "editor.debugger_active_line.background": "#5a1f38"
-  }
+    "editor.debugger_active_line.background": "#5a1f38",
+  },
 }

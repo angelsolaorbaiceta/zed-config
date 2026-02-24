@@ -1,27 +1,17 @@
-// Zed keymap
-//
-// For information on binding keys, see the Zed
-// documentation: https://zed.dev/docs/key-bindings
-//
-// To see the default key bindings run `zed: open default keymap`
-// from the command palette.
 [
   {
-    "context": "Workspace",
+    "context": "debugger_stopped > vim_mode == normal",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
-    }
+      "c": "debugger::Continue",
+      "s": "debugger::StepOver",
+      "S": "debugger::StepInto",
+      "u": "debugger::StepOut",
+    },
   },
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "Terminal",
     "bindings": {
-      // "j k": "vim::NormalBefore"
-    }
+      "shift-enter": ["terminal::SendText", "\u001b\r"],
+    },
   },
-  {
-    "context": "(VimControl && !menu)",
-    "bindings": {
-      // "g r r": "editor::FindAllReferences"
-    }
-  }
 ]

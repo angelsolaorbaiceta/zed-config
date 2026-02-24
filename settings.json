@@ -41,7 +41,7 @@
     },
   },
   "debugger": {
-    "dock": "left",
+    "dock": "right",
   },
   "lsp": {
     "golangci-lint": {
